@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 139
+ignore =
+    # W391 blank line at end of file
+    W391,
+    # E303 too many blank lines
+    E303,
+    # E128 continuation line under-indented for visual indent
+    E128,
+    # expected 2 blank lines, found x
+    E302,
+    # E305 expected 2 blank lines after class or function definition, found 1
+    E305
