@@ -10,4 +10,6 @@ ignore =
     # expected 2 blank lines, found x
     E302,
     # E305 expected 2 blank lines after class or function definition, found 1
-    E305
+    E305,
+    # E701 multiple statements on one line
+    E701
